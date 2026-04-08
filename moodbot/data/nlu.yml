@@ -1,0 +1,29 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hallo
+    - hi
+    - guten tag
+    - hey
+
+- intent: goodbye
+  examples: |
+    - tschüss
+    - bis später
+    - mach’s gut
+
+- intent: mood_great
+  examples: |
+    - mir geht’s gut
+    - ich bin glücklich
+    - alles super
+    - ich fühle mich toll
+
+- intent: mood_unhappy
+  examples: |
+    - mir geht’s schlecht
+    - ich bin traurig
+    - ich fühle mich nicht gut
+    - ich bin unglücklich

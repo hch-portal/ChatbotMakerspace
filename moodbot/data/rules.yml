@@ -1,0 +1,11 @@
+version: "3.1"
+
+rules:
+- rule: greet rule
+  steps:
+    - intent: greet
+    - action: utter_greet
+- rule: test node red
+  steps:
+    - intent: greet
+    - action: action_node_red_test

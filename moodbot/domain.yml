@@ -1,0 +1,24 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - mood_great
+  - mood_unhappy
+
+responses:
+  utter_greet:
+    - text: "Hallo! Wie geht es dir heute?"
+
+  utter_goodbye:
+    - text: "Mach’s gut!"
+
+  utter_happy:
+    - text: "Super! Das freut mich sehr."
+
+  utter_cheer_up:
+    - text: "Das tut mir leid. Ich hoffe, es wird bald besser."
+
+actions: []
+actions:
+  - action_node_red_test
